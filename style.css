@@ -1,0 +1,281 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+body{
+	margin: 0;
+	font-family: 'Alkalami', serif;
+	background-color: lightblue;
+}
+
+}
+
+header{
+	background-color: white;
+
+}
+h1{
+	text-align:center;
+	margin:0;
+	font-size: 45px;
+}
+h2{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+}
+p{
+	font-size: 21px;
+}
+nav{
+	background-color: lightblue;
+	margin:0;
+	padding-top: 12px;
+}
+nav ul{
+	list-style-type: none;
+	text-align:center;
+	padding-left:0;
+	
+}
+nav li{
+	display:inline;
+	padding: 5px;
+}
+
+nav a{
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+nav a:link{
+	color:white;
+}
+nav a:visited{
+	color:white;
+}
+nav a:hover{
+	color:#dddddd;
+}
+nav a:active{
+	color:pink;
+}
+
+
+main{
+	margin: 0 auto;
+	max-width: 1100px;
+	padding:10px;
+	background-color: lightblue;
+
+}
+
+.icons .fa{
+	font-size: 2em;
+    color: lightblue;
+	
+}
+.icons{
+	text-align:center;
+	padding: 40px 0 ;
+    color: lightblue;
+    max-width:1200px;
+    margin:0 auto;
+    
+}
+
+}
+.resume{
+	margin: 30px auto;
+	border: 1px solid black;
+	box-shadow: 2px 2px 2px black;
+	padding:30px 5%;
+	max-width: 800px;
+}
+.resume-content{
+	border-left: 6px solid black;
+	padding-left: 20px;
+}
+.resume h1{
+	text-align: left;
+}
+.resume h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.resume p, .resume li{
+	font-size: 13px;
+}
+
+@media only screen and (max-width: 850px){
+	.resume{
+		border: none;
+		box-shadow: none;
+	}
+	.resume-content{
+		border-left:none;
+		padding-left:0;
+	}
+}
+.center-text{
+	text-align:center;
+}
+.game-controls{
+	margin-top: 20px;
+	text-align:center;
+}
+	
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.center-game{
+	margin:0 auto;
+}
+.example{
+	box-shadow: 2px 2px 2px gray;
+	margin: 10px;
+}
+.example:hover{
+	opacity: .8;
+}
+.logo{
+	margin: 0 auto;
+	display: block;
+	padding: 10px;
+}
+
+
+.footer-icons{
+	color: #ffffff;
+	font-size: 20px;
+}
+
+}
+button{
+	background-color: white;
+	color: white;
+	padding: 3px 15px;
+	border-radius: 3px;
+}
+button:hover{
+	background-color: black;
+}
+
+/*Styles for the footer */
+footer{
+	clear:both;
+	background-color: darkblue;
+	color: white;
+	margin:40px 0 0 0;
+	display:block;
+}
+
+}
+footer a:link{
+	color:white;
+}
+footer a:visited{
+	color:white;
+}
+footer a:hover{
+	color:lightblue;
+	text-decoration: none;
+}
+footer a:active{
+	color: darkslateblue;
+}
+
+.footer-bottom{
+	background-color: darkblue;
+	padding: 10px;
+	color: lightblue;
+	text-align:center;
+	width: 100%;
+}
+
+.icons .fa{
+    color: white;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 570px){
+	nav li{
+		line-height: 50px;
+	}
+	.photo-sp{
+		display:none;
+	}
+}
+.gallery .preview{
+    width:100%;
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:180px;
+    margin: 3px 10px 10px 0;
+	max-width:100%;
+	height: auto;
+}
+@media only screen and (max-width: 570px){
+
+	.gallery .gallery-thumbnails{
+		text-align:center;
+	}
+	.gallery .gallery-thumbnails img{
+	    width: 150px;
+	}
+
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+body{
+	font-family: 'Alkalami', serif;
+	background-color: blueviolet;
+}
+
+.home-hero{
+	background-image:url(images/header.jpg);
+	height: 475px;
+	background-size:cover;
+	background-position: center;
+	color: black;
+	padding: 10px 10px 10px 30px; 
+
+}
+
+h1{
+	font-size:4em;
+    color: black;
+    text-align:center; 
+    font-weight:bold;
+}
+nav ul{
+	list-style-type: none;
+    text-align: center;
+    background-color: #;
+    padding: 15px 0;
+    margin-top:0;
+    border-top:  skyblue 2px solid;
+    border-bottom: skyblue 2px solid;
+
+}
+nav li{
+	display: inline;
+    margin: 5px 10px;
+}
+nav a{
+    text-decoration:none;
+    text-transform:uppercase;
+}
+nav a:link{
+	color: yellow;
+}
+nav a:visited{
+	color: hotpink;
+}
+nav a:hover{
+	color: dimgray;
+    text-decoration:none;
+}
+nav a:active{
+	color: black;
+}
+
+main{
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+
+h2{
+	margin-bottom:1px;
+	margin-top:5px;
+    font-weight:bold;
+}
+img{
+    margin:0 auto;
+    display:block;
+}
+.col-sm-4 h3{
+    text-align:center;
+}
+blockquote{
+	margin:30px;
+}
+footer{
+	color:white;
+	background-color: blueviolet;
+	text-align:center;
+	padding:25px;
+	margin:0;
+	display:block;
+}
+footer a:link{
+    color:white;
+}
+
+.icons .fa{
+	font-size: 3em;
+    color: darkred;
+	
+}
+.icons{
+	text-align:center;
+	padding: 70px 0 ;
+    color: darkred;
+    max-width:1200px;
+    margin:0 auto;
+    
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+}
+

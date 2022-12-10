@@ -1,0 +1,210 @@
+/*This is the CSS file for Pacific Heights Trails */
+body{
+	background-color: #FFFFFF;
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	background-image:url("images/background.jpg");
+
+	
+}
+#wrapper{
+	background-color: #90C7E3;
+	width: 80%;
+	margin: 0 auto;
+	min-width: 700px;
+	max-width: 1024px;
+	box-shadow: -11px 7px 49px -5px #000000;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+main{
+	margin-left: 170px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: #FFFFFF;
+}
+
+header{
+	background-color: #000033;
+	color: #FFFFFF;
+	font-family: Georgia, serif;
+}
+nav{
+	font-weight: bold;
+	background-color: #90C7E3;
+	padding: 20px 5px 0 20px;
+	float: left;
+	width: 160px;
+}
+nav a{
+	text-decoration: none;
+
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+nav a:link {color: 000033}
+nav a: visted {color: #344873; }
+nav a:hover {color: FFFFFF}
+nav a: active use #000000
+footer{
+	font-size: .70em;
+	font-style: italic;
+	text-align: center;
+	padding: 5 px;
+	margin-left: 170px;
+	background-color: #FFFFFF;
+}
+h1{
+	line-height: 200%;
+	background-image:url("images/sunset.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 20px;
+	height: 72px;
+	margin-bottom: 0;
+
+}
+
+h2{
+	color: #3399cc;
+	font-family:  Georgia, serif;
+}
+
+h3{
+	color: #000033;
+}
+
+dt{
+	color: #000033;
+	font-weight: bold;
+}
+
+.resort{
+	color: #000033;
+	font-size: 1.2em;
+}
+
+#homehero{
+	background-image:url("images/coast.jpg");
+	height: 300px;
+	background-size: background-size: 100% 100%;
+	background-repeat: no-repeat;
+    margin-left: 170px;
+}
+#yurthero{
+	background-image:url("images/yurt.jpg");
+	height: 300px;
+	background-size: background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 170px;
+}
+#trailhero{
+	background-image:url("images/trail.jpg");
+	height: 300px;
+	background-size: background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 170px;
+}
+{
+	box-sizing:border-box;
+}
+#mobile{
+	display: none;
+}
+/* CSS for tablets  */
+@media only screen and (max-width: 1024px){
+	body{
+		margin: 0;
+		padding: 0;
+		background-image: none;
+	}
+	#wrapper{
+		max-width: 1024px;
+		width: auto;
+		min-width: 0;
+		box-shadow: none;
+	}
+	h1{
+		margin: 0;
+
+	}
+	nav{
+		float: none;
+		width: auto;
+		padding: 0.5em;
+	}
+	nav li{
+		display: inline-block;
+	}
+	nav a{
+		padding: 1em;
+	}
+	main{
+		margin-left: 0;
+		padding: 1em;
+		font-size: 90%;
+
+	}
+	footer{
+		margin: 0;
+	}
+	#homehero,
+	#yurthero,
+	#trailhero{
+		margin-left: 0;
+	}
+}
+/* CSS for smartphones */
+@media only screen and (max-width: 768px){
+	#homehero,
+	#yurthero,
+	#trailhero{
+		display: none;
+	}
+	nav li{
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+	nav a{
+		display: block;
+		border-bottom: 1 px #330000 solid;
+		padding: 0.2em;
+		font-size: 1.3em;
+	}
+	nav{
+		padding: 0;
+
+	}
+	nav ul{
+		margin: 0;
+		padding: 0;
+	}
+	h1{
+		font-size: 1.5em;
+		padding-left: 0.3em;
+		height: auto;
+	}
+	main{
+		padding-top: 0.1em;
+		padding-right: 0.6em;
+		padding-bottom: 0.1em;
+		padding-left: 0.4em;
+	}
+	footer{
+		padding: 0;
+	}
+	#destop{
+		display: none;
+	}
+	#mobile{
+		display:inline;
+	}
+}
+
+
+
